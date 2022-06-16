@@ -1,0 +1,20 @@
+Installation Frontend
+NPM = npm install
+
+Installation BACKEND
+NODEMON = npm install -g nodemon
+EXPRESS = npm install express --save
+___________________
+
+Lancement FRONT
+- npm run start
+
+Lancement BACK
+- node server
+- nodemon server (Apres installation et update en live)
+
+
+_______________________
+!! Installation de Nodemon pour eviter de relancer commande node Server a chaque changement.
+
+
