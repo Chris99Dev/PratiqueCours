@@ -4,6 +4,9 @@ NPM = npm install
 Installation BACKEND
 NODEMON = npm install -g nodemon
 EXPRESS = npm install express --save
+
+DATABASE
+MONGOOSE = npm install mongoose
 ___________________
 
 Lancement FRONT
@@ -12,7 +15,6 @@ Lancement FRONT
 Lancement BACK
 - node server
 - nodemon server (Apres installation et update en live)
-
 
 _______________________
 !! Installation de Nodemon pour eviter de relancer commande node Server a chaque changement.
