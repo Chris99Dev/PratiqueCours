@@ -4,9 +4,12 @@ NPM = npm install
 Installation BACKEND
 NODEMON = npm install -g nodemon
 EXPRESS = npm install express --save
+Bcrypt = npm install --save bcrypt 
+VALIDATOR for user = npm install --save mongoose-unique-validator
 
 DATABASE
 MONGOOSE = npm install mongoose
+
 ___________________
 
 Lancement FRONT

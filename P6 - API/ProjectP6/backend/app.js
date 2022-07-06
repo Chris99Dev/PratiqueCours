@@ -2,6 +2,7 @@ const express = require('express'); //Adding Express
 const mongoose = require('mongoose'); //Adding MongoDB
 
 const stuffRoutes = require('./routes/stuff'); //Import routes
+const userRoutes = require('./routes/user');
 
 const app = express();
 
@@ -18,6 +19,7 @@ app.use((req, res, next) => {
 app.use(express.json());
 
 app.use('/api/stuff', stuffRoutes);
+app.use('/api/auth', userRoutes);
 
 //To be use anywhere on the project
 module.exports = app;
