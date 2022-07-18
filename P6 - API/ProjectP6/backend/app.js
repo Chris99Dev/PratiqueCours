@@ -7,13 +7,7 @@ const userRoutes = require('./routes/user');
 const app = express();
 
 // ADDING HERE MONGO LINK //
-Mongo = mongoose.connect('mongodb+srv://ChrisAd:12uiZ*gymcYSad4l&Hkf@api-test.p0b2q.mongodb.net/?retryWrites=true&w=majority',
-    {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    })
-    .then(() => console.log('Connexion à MongoDB réussie !'))
-    .catch(() => console.log('Connexion à MongoDB échouée !'));
+
 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
