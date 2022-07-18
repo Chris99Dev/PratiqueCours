@@ -6,6 +6,7 @@ NODEMON = npm install -g nodemon
 EXPRESS = npm install express --save
 Bcrypt = npm install --save bcrypt 
 VALIDATOR for user = npm install --save mongoose-unique-validator
+TOKEN = npm install --save jsonwebtoken
 
 DATABASE
 MONGOOSE = npm install mongoose
